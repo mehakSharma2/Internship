@@ -1,10 +1,21 @@
 import './App.css';
+import Main from './components/Main';
+import Nav from './components/Nav';
 
 function App() {
+
+
+  document.body.style.backgroundColor = "#f2e7d7"
   return (
-    <div className="App">
-      <h1>hello</h1>
+    <div>
+     <Nav/> 
+     <Main/>
+    
+
     </div>
+    
+
+  
   );
 }
 
